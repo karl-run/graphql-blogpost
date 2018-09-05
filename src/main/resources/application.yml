@@ -1,0 +1,9 @@
+graphql:
+  servlet:
+    mapping: /api/graphql
+    enabled: true
+
+graphiql:
+  mapping: /graphiql
+  endpoint: /api/graphql
+  enabled: true

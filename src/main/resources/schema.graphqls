@@ -1,0 +1,15 @@
+type Person {
+  name: String!
+  age: Int
+  complexValue: Int!
+}
+
+type Query {
+  hello: String!
+  bye: String!
+  person(who: String!): Person!
+}
+
+type Mutation {
+  newPerson(name: String!, age: Int): Person!
+}
